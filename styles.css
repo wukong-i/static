@@ -1,0 +1,14 @@
+  .button1 {
+    display: block; /* Make buttons appear as block elements */
+    width: 100%; /* Optional: Makes the button take full width */
+    margin: 10px 0; /* Adds spacing between buttons */
+    padding: 10px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #25A186;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+  }
