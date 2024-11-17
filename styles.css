@@ -1,4 +1,4 @@
-  .button1 {
+  #btn1 {
     display: block; /* Make buttons appear as block elements */
     width: 100%; /* Optional: Makes the button take full width */
     margin: 10px 0; /* Adds spacing between buttons */
@@ -12,7 +12,7 @@
     cursor: pointer;
     text-decoration: none;
   }
-.button2 {
+#btn2 {
   display: block; /* Make buttons appear as block elements */
     width: 100%; /* Optional: Makes the button take full width */
     margin: 10px 0; /* Adds spacing between buttons */
