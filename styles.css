@@ -13,20 +13,17 @@
     text-decoration: none;
   }
 .button2 {
-  border: 2px solid white;
-  color: white;
-  padding: 15px 20px; /* Increased padding for better spacing */
-  font-size: 1.2em;
-  text-align: center; /* Align text to the left */
-  background-color: #25A186;
-  backdrop-filter: blur(5px);
-  cursor: pointer;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  display: inline-block; /* Let the button grow with its content */
-   /* Prevent text wrapping */
-  overflow: hidden; /* Hide any overflow text */
-   /* Add '...' if text overflows */
-  max-width: 100%; /* Ensure it doesn't exceed the viewport width */
-  box-sizing: border-box; /* Include padding and border in the size calculation */
-}
+  display: block; /* Make buttons appear as block elements */
+    width: 100%; /* Optional: Makes the button take full width */
+    margin: 10px 0; /* Adds spacing between buttons */
+    padding: 10px;
+    font-size: px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #25A186;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;}
